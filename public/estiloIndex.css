@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: Futura;
+    src: url(recursos/Futura\ Heavy\ font.ttf);
+  }
+
+body {
+    /* background-image: url('recursos/edificioperspectiva.jpg');
+    background-size: cover;
+    background-position-x: left; */
+}
+
+.imgFondo {
+    position: fixed;
+    left: 29%;
+    transform: rotate(270deg);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 100vh;
+    padding-left: 100px;
+}
+
+.subContenedor {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 310px;
+    margin-right: -100px;
+}
+
+.titulo {
+    font-family: Futura;
+    align-self: left;
+    margin: 20px;
+    color: black;
+    font-size: 50px;
+}
+
+.subTitulo {
+    margin: 20px;
+    margin-top: -14px;
+    font-size: smaller;
+    color: black;
+}
+
+#descripcion {
+    margin: 20px;
+    margin-top: 0px;
+    color: black;
+    font-size: 22px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.subBotones {
+    display: flex;
+    justify-content: left;
+}
+
+.button {
+    width: 200px;
+    margin: 10px;
+    
+}
+
+#botonMipip {
+    color: black;
+}
+
+#loading-message {
+    display: none;
+  }
+
+
+#boton_agenda {
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    align-content: center;
+    align-self: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloIndex.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <img class="imgFondo" src="recursos/Sin título-2.jpg" alt="">
+    <div class="contenedor">
+        <div class="subContenedor">
+            <h1><strong class="titulo">MIPIP</strong></h1>
+            <p class="subTitulo">METODOLOGÍA DE TRABAJO INTERDICIPLINARIO PARA PROYECTOS DE INFRAESTRUCTURA PÚBLICA</p>
+            <p id="descripcion"> "Replanteado el la forma de ver el proceso de creación de infraestructura pública" </p>
+
+           
+            <div class="botones">
+                <button id="botonMipip" class="button is-success is-large"> Ver Metodología </button> 
+                <div class="subBotones">
+                    <button id="botonMipip3" class="button is-light"> Ir a la Herramienta </button> 
+                    <button id="botonMipip2" class="button is-success is-light"> Proyectos </button>  
+                </div>
+               
+        </div>
+        </div>
+            
+    </div>
+    <script>
+        const botonMipip = document.getElementById('botonMipip');
+        const botonMipip2 = document.getElementById('botonMipip2');
+        const botonMipip3 = document.getElementById('botonMipip3');
+
+        botonMipip.addEventListener('click', function() {
+          window.location.replace('mipip.html');
+        });
+
+        botonMipip2.addEventListener('click', function() {
+          window.location.replace('agenda.html');
+        });
+
+        botonMipip3.addEventListener('click', function() {
+            window.open("https://mipip-herramienta-d6f8ff51940c.herokuapp.com/", "_blank");
+        });
+      
+        </script>
+</body>
+</html>

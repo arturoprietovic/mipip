@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+}
+
+.navbar-menu {
+    flex-grow: initial;
+    flex-shrink: initial;
+}
+
+/* .navbar-brand {
+    align-self: start;
+} */
+
+#sobreNosotros {
+    background-color: #141414;
+    color: white;
+}
+
+#loading-message {
+    display: none;
+  }
+
+
